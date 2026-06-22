@@ -483,3 +483,7 @@ show run | section aaa           ! Ver configuración AAA
 ### Conclusión
 
 Se implementó exitosamente una VPN **Client-to-Site punto a multipunto** usando **L2TP sobre IPSec IKEv1** en Cisco IOS 15.7(3)M2. Los dos clientes Kali Linux se conectaron simultáneamente al servidor, recibieron IPs dinámicas del pool configurado, y lograron conectividad completa con la red interna. El tráfico viaja cifrado con AES-256 y autenticado con SHA-256 y MS-CHAPv2, cumpliendo todos los requisitos de seguridad establecidos.
+
+
+**Nota:** Esta práctica se realiza exclusivamente con fines educativos y de aprendizaje, dentro de un entorno simulado y controlado. Todas las configuraciones, pruebas y procedimientos descritos se ejecutan sobre equipos y recursos autorizados, sin afectar sistemas de terceros ni infraestructuras en producción.
+
